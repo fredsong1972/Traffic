@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E37BAF5225755F7000F6315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E37BAF4225755F7000F6315 /* AppDelegate.swift */; };
+		8E37BAF7225755F7000F6315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E37BAF6225755F7000F6315 /* ViewController.swift */; };
+		8E37BAFA225755F7000F6315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BAF8225755F7000F6315 /* Main.storyboard */; };
+		8E37BAFC225755FA000F6315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BAFB225755FA000F6315 /* Assets.xcassets */; };
+		8E37BAFF225755FA000F6315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BAFD225755FA000F6315 /* LaunchScreen.storyboard */; };
+		8E37BB0722575634000F6315 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BB0622575634000F6315 /* Podfile */; };
+		BA65B0D00445B2FB501C8CFA /* libPods-Traffic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D183C95400E22768BE669C0 /* libPods-Traffic.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D183C95400E22768BE669C0 /* libPods-Traffic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Traffic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8171C3A6ADC34A8803AE5581 /* Pods-Traffic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traffic.release.xcconfig"; path = "Target Support Files/Pods-Traffic/Pods-Traffic.release.xcconfig"; sourceTree = "<group>"; };
+		8E37BAF1225755F7000F6315 /* Traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E37BAF4225755F7000F6315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E37BAF6225755F7000F6315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E37BAF9225755F7000F6315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E37BAFB225755FA000F6315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E37BAFE225755FA000F6315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E37BB00225755FA000F6315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E37BB0622575634000F6315 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A01709ADF804719ED6B61ABE /* Pods-Traffic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traffic.debug.xcconfig"; path = "Target Support Files/Pods-Traffic/Pods-Traffic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E37BAEE225755F7000F6315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65B0D00445B2FB501C8CFA /* libPods-Traffic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285BF212BDBF2C8907CC46EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A01709ADF804719ED6B61ABE /* Pods-Traffic.debug.xcconfig */,
+				8171C3A6ADC34A8803AE5581 /* Pods-Traffic.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		643303C006AF38339080B4AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D183C95400E22768BE669C0 /* libPods-Traffic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E37BAE8225755F7000F6315 = {
+			isa = PBXGroup;
+			children = (
+				8E37BB0622575634000F6315 /* Podfile */,
+				8E37BAF3225755F7000F6315 /* Traffic */,
+				8E37BAF2225755F7000F6315 /* Products */,
+				285BF212BDBF2C8907CC46EC /* Pods */,
+				643303C006AF38339080B4AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E37BAF2225755F7000F6315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E37BAF1225755F7000F6315 /* Traffic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E37BAF3225755F7000F6315 /* Traffic */ = {
+			isa = PBXGroup;
+			children = (
+				8E37BAF4225755F7000F6315 /* AppDelegate.swift */,
+				8E37BAF6225755F7000F6315 /* ViewController.swift */,
+				8E37BAF8225755F7000F6315 /* Main.storyboard */,
+				8E37BAFB225755FA000F6315 /* Assets.xcassets */,
+				8E37BAFD225755FA000F6315 /* LaunchScreen.storyboard */,
+				8E37BB00225755FA000F6315 /* Info.plist */,
+			);
+			path = Traffic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E37BAF0225755F7000F6315 /* Traffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E37BB03225755FA000F6315 /* Build configuration list for PBXNativeTarget "Traffic" */;
+			buildPhases = (
+				E043D442C463FF30C97EE912 /* [CP] Check Pods Manifest.lock */,
+				8E37BAED225755F7000F6315 /* Sources */,
+				8E37BAEE225755F7000F6315 /* Frameworks */,
+				8E37BAEF225755F7000F6315 /* Resources */,
+				B9732B550E2AD5F163B52E45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Traffic;
+			productName = Traffic;
+			productReference = 8E37BAF1225755F7000F6315 /* Traffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E37BAE9225755F7000F6315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TomTom;
+				TargetAttributes = {
+					8E37BAF0225755F7000F6315 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E37BAEC225755F7000F6315 /* Build configuration list for PBXProject "Traffic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E37BAE8225755F7000F6315;
+			productRefGroup = 8E37BAF2225755F7000F6315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E37BAF0225755F7000F6315 /* Traffic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E37BAEF225755F7000F6315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E37BAFF225755FA000F6315 /* LaunchScreen.storyboard in Resources */,
+				8E37BAFC225755FA000F6315 /* Assets.xcassets in Resources */,
+				8E37BB0722575634000F6315 /* Podfile in Resources */,
+				8E37BAFA225755F7000F6315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9732B550E2AD5F163B52E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Traffic/Pods-Traffic-frameworks.sh",
+				"${PODS_ROOT}/TomTomOnlineSDKGeofencing/TomTomOnlineSDKGeofencing/TomTomOnlineSDKGeofencing.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsDriving/TomTomOnlineSDKMapsDriving/TomTomOnlineSDKMapsDriving.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic.framework",
+				"${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils/TomTomOnlineUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKGeofencing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMaps.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsDriving.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsStaticImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKRouting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKTraffic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Traffic/Pods-Traffic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E043D442C463FF30C97EE912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Traffic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E37BAED225755F7000F6315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E37BAF7225755F7000F6315 /* ViewController.swift in Sources */,
+				8E37BAF5225755F7000F6315 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E37BAF8225755F7000F6315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E37BAF9225755F7000F6315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E37BAFD225755FA000F6315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E37BAFE225755FA000F6315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E37BB01225755FA000F6315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E37BB02225755FA000F6315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E37BB04225755FA000F6315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01709ADF804719ED6B61ABE /* Pods-Traffic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Traffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TomTom.Traffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E37BB05225755FA000F6315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8171C3A6ADC34A8803AE5581 /* Pods-Traffic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Traffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TomTom.Traffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E37BAEC225755F7000F6315 /* Build configuration list for PBXProject "Traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E37BB01225755FA000F6315 /* Debug */,
+				8E37BB02225755FA000F6315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E37BB03225755FA000F6315 /* Build configuration list for PBXNativeTarget "Traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E37BB04225755FA000F6315 /* Debug */,
+				8E37BB05225755FA000F6315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E37BAE9225755F7000F6315 /* Project object */;
+}

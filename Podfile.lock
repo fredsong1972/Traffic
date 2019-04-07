@@ -1,0 +1,55 @@
+PODS:
+  - TomTomOnlineSDKGeofencing (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineSDKMaps (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineSDKMapsDriving (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineSDKMapsStaticImage (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineSDKMapsUIExtensions (2.4.143):
+    - TomTomOnlineSDKMaps (= 2.4.143)
+  - TomTomOnlineSDKRouting (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineSDKSearch (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineSDKTraffic (2.4.143):
+    - TomTomOnlineUtils (= 2.4.143)
+  - TomTomOnlineUtils (2.4.143)
+
+DEPENDENCIES:
+  - TomTomOnlineSDKGeofencing
+  - TomTomOnlineSDKMaps
+  - TomTomOnlineSDKMapsDriving
+  - TomTomOnlineSDKMapsStaticImage
+  - TomTomOnlineSDKMapsUIExtensions
+  - TomTomOnlineSDKRouting
+  - TomTomOnlineSDKSearch
+  - TomTomOnlineSDKTraffic
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TomTomOnlineSDKGeofencing
+    - TomTomOnlineSDKMaps
+    - TomTomOnlineSDKMapsDriving
+    - TomTomOnlineSDKMapsStaticImage
+    - TomTomOnlineSDKMapsUIExtensions
+    - TomTomOnlineSDKRouting
+    - TomTomOnlineSDKSearch
+    - TomTomOnlineSDKTraffic
+    - TomTomOnlineUtils
+
+SPEC CHECKSUMS:
+  TomTomOnlineSDKGeofencing: 43169d4a909ffa77e5c03cf6055bb6edcecdd858
+  TomTomOnlineSDKMaps: ab40d83b6bd2819acac80fef8e3b035e1cd481f9
+  TomTomOnlineSDKMapsDriving: da471082cf6fa4421afb3fde80e8a3e0830a4b0c
+  TomTomOnlineSDKMapsStaticImage: 8b1cda3c5d95cb0eaf0fb631e5f9ee7de149fdf1
+  TomTomOnlineSDKMapsUIExtensions: 6ee86c0dc6f507aa4565992e6059b480b65a108f
+  TomTomOnlineSDKRouting: 4e116e4d47812b06bb203e0954e2dc106675fc91
+  TomTomOnlineSDKSearch: 6512255ed744b352568fa1c51ad2f96988270cb3
+  TomTomOnlineSDKTraffic: 2a757f29bcf52a418b9da8b6a6f6c7c5754ea162
+  TomTomOnlineUtils: 13bc6ab25d3257bbe457eff71dac8e7f5bb82076
+
+PODFILE CHECKSUM: 45cdff447ff132ccb6c3c87ff1efcc29eb79a95e
+
+COCOAPODS: 1.6.1
