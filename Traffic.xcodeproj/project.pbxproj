@@ -13,6 +13,10 @@
 		8E37BAFC225755FA000F6315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BAFB225755FA000F6315 /* Assets.xcassets */; };
 		8E37BAFF225755FA000F6315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BAFD225755FA000F6315 /* LaunchScreen.storyboard */; };
 		8E37BB0722575634000F6315 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E37BB0622575634000F6315 /* Podfile */; };
+		8E7204B8225B0961008B3DF0 /* TTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7204B7225B0961008B3DF0 /* TTConstants.swift */; };
+		8E7204BA225B11C8008B3DF0 /* DrivingTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7204B9225B11C8008B3DF0 /* DrivingTrack.swift */; };
+		8E7204BC225B1C04008B3DF0 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7204BB225B1C04008B3DF0 /* LocationProvider.swift */; };
+		8E7204BE225B230B008B3DF0 /* simple_route.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8E7204BD225B230B008B3DF0 /* simple_route.csv */; };
 		BA65B0D00445B2FB501C8CFA /* libPods-Traffic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D183C95400E22768BE669C0 /* libPods-Traffic.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,10 @@
 		8E37BAFE225755FA000F6315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E37BB00225755FA000F6315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E37BB0622575634000F6315 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8E7204B7225B0961008B3DF0 /* TTConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTConstants.swift; sourceTree = "<group>"; };
+		8E7204B9225B11C8008B3DF0 /* DrivingTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingTrack.swift; sourceTree = "<group>"; };
+		8E7204BB225B1C04008B3DF0 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		8E7204BD225B230B008B3DF0 /* simple_route.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = simple_route.csv; sourceTree = "<group>"; };
 		A01709ADF804719ED6B61ABE /* Pods-Traffic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traffic.debug.xcconfig"; path = "Target Support Files/Pods-Traffic/Pods-Traffic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +56,6 @@
 				A01709ADF804719ED6B61ABE /* Pods-Traffic.debug.xcconfig */,
 				8171C3A6ADC34A8803AE5581 /* Pods-Traffic.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +95,10 @@
 				8E37BAFB225755FA000F6315 /* Assets.xcassets */,
 				8E37BAFD225755FA000F6315 /* LaunchScreen.storyboard */,
 				8E37BB00225755FA000F6315 /* Info.plist */,
+				8E7204B7225B0961008B3DF0 /* TTConstants.swift */,
+				8E7204B9225B11C8008B3DF0 /* DrivingTrack.swift */,
+				8E7204BB225B1C04008B3DF0 /* LocationProvider.swift */,
+				8E7204BD225B230B008B3DF0 /* simple_route.csv */,
 			);
 			path = Traffic;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E37BAFF225755FA000F6315 /* LaunchScreen.storyboard in Resources */,
+				8E7204BE225B230B008B3DF0 /* simple_route.csv in Resources */,
 				8E37BAFC225755FA000F6315 /* Assets.xcassets in Resources */,
 				8E37BB0722575634000F6315 /* Podfile in Resources */,
 				8E37BAFA225755F7000F6315 /* Main.storyboard in Resources */,
@@ -230,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E37BAF7225755F7000F6315 /* ViewController.swift in Sources */,
+				8E7204BA225B11C8008B3DF0 /* DrivingTrack.swift in Sources */,
+				8E7204B8225B0961008B3DF0 /* TTConstants.swift in Sources */,
 				8E37BAF5225755F7000F6315 /* AppDelegate.swift in Sources */,
+				8E7204BC225B1C04008B3DF0 /* LocationProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
